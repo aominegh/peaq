@@ -29,6 +29,17 @@ Additional tasks:
 ## Required ports
 No ports needed to be opened if you will be connecting to the node on localhost.
 For RPC and WebSockets the following should be opened: `9933/TCP, 9944/TCP`
+You can open port on provide vps and in vps
+```
+sudo ufw default allow outgoing
+sudo ufw default deny incoming
+sudo ufw allow ssh/tcp
+sudo ufw limit ssh/tcp
+sudo ufw allow 9933/tcp
+sudo ufw allow 9944/tcp
+sudo ufw enable
+reboot
+```
 
 ### Option 1 (automatic)
 You can setup your Peaq full node in few minutes by using automated script below
