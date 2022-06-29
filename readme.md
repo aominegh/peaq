@@ -2,10 +2,6 @@
 <a href="https://discord.gg/hcbT5ryUdF" target="_blank">Join our discord <img src="https://camo.githubusercontent.com/0ef309f7e0b554033dd25b3ce83015db2f0f8952fb4c31318af095369d3d4453/68747470733a2f2f7669676e657474652e77696b69612e6e6f636f6f6b69652e6e65742f7468652d6d696e6572732d686176656e2d70726f6a6563742f696d616765732f642f64642f446973636f72642e706e672f7265766973696f6e2f6c61746573743f63623d3230313730333038303333353436" width="30"/></a>
 </p>
 
-<p style="font-size:14px" align="right">
-<a href="https://hetzner.cloud/?ref=y8pQKS2nNy7i" target="_blank">Deploy your VPS using our referral link to get 20€ bonus <img src="https://user-images.githubusercontent.com/50621007/174612278-11716b2a-d662-487e-8085-3686278dd869.png" width="30"/></a>
-</p>
-
 <p align="center">
   <img height="100" height="auto" src="https://user-images.githubusercontent.com/50621007/176226900-aae9149d-a186-4fd5-a9aa-fc3ce8b082b3.png">
 </p>
@@ -18,7 +14,7 @@ Official documentation:
 - EVM Explorer: https://scout.agung.peaq.network/
 
 Additional tasks:
-- [Transfer tokens between Ethereum and substrate wallets](https://github.com/kj89/testnet_manuals/blob/main/peaq/token_transfer.md)
+- [Transfer tokens between Ethereum and substrate wallets](https://github.com/applejuice28/peaq/blob/main/token_transfer.md)
 
 ## Minimum Specifications
 - CPU: 2 CPU
@@ -41,7 +37,7 @@ wget -O peaq.sh https://raw.githubusercontent.com/kj89/testnet_manuals/main/peaq
 ```
 
 ### Option 2 (manual)
-You can follow [manual guide](https://github.com/kj89/testnet_manuals/blob/main/peaq/manual_install.md) if you better prefer setting up node manually
+You can follow [manual guide](https://github.com/applejuice28/peaq/blob/main/manual_install.md) if you better prefer setting up node manually
 
 ## Check your node synchronization
 If output is `false` your node is synchronized
