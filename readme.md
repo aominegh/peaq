@@ -33,7 +33,7 @@ For RPC and WebSockets the following should be opened: `9933/TCP, 9944/TCP`
 ### Option 1 (automatic)
 You can setup your Peaq full node in few minutes by using automated script below
 ```
-wget -O peaq.sh https://raw.githubusercontent.com/kj89/testnet_manuals/main/peaq/peaq.sh && chmod +x peaq.sh && ./peaq.sh
+wget -O peaq.sh https://raw.githubusercontent.com/applejuice28/peaq/main/peaq.sh && chmod +x peaq.sh && ./peaq.sh
 ```
 
 ### Option 2 (manual)
